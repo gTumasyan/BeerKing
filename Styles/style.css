@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  color: peru;
+  font-size: 6rem;
+  padding-top: 1.7rem;
+}
+
+p,
+span {
+  font-family: "Amatic SC", cursive;
+  color: rgb(184, 182, 182);
+  font-size: 1.5rem;
+  padding-top: 1.7rem;
+}
+span {
+  font-size: 3rem;
+}
+
+body {
+  background-image: url(/Images/castle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
